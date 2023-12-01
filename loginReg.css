@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:wght@200;300;400;500&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.img-login .img-fluid {
+  height: 410px !important;
+}
+
+.text-theme {
+  text-decoration: none;
+  color: #606c38;
+}
+
+.text-theme:hover {
+  text-decoration: none;
+  color: #93987c;
+}
+
+.btn-color-theme {
+  background-color: #385b64;
+  color: white !important;
+  border-color: #385b64;
+}
+
+.btn-color-theme:hover {
+  background-color: #606c38;
+  color: white;
+  border-color: #606c38;
+}
+
+#display-pass {
+  display: none;
+}
+
+#display-passConfirm {
+  display: none;
+}
